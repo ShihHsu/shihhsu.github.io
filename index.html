@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交易紀錄</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>交易紀錄</h1>
+        <nav>
+            <button class="active">全部</button>
+            <button>多天</button>
+            <button>最近7天</button>
+            <button>最近30天</button>
+            <button>本月</button>
+            <button>自動更新</button>
+            <div class="right-buttons">
+                <button class="icon-btn">選擇存續</button>
+                <button class="icon-btn">只顯示R</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="stats">
+        <div class="stat-card">
+            <h3>胜率 <span class="tooltip">ⓘ</span></h3>
+            <p id="win-rate">0%</p>
+            <small id="win-loss">0/0</small>
+        </div>
+        <div class="stat-card">
+            <h3>收益率 <span class="tooltip">ⓘ</span></h3>
+            <p id="total-return">0 R</p>
+        </div>
+        <div class="stat-card">
+            <h3>平均收益率 <span class="tooltip">ⓘ</span></h3>
+            <p id="avg-return">0 R</p>
+        </div>
+        <div class="stat-card">
+            <h3>獲利因子 <span class="tooltip">ⓘ</span></h3>
+            <p id="profit-factor">0</p>
+            <small id="profit-loss">0/0</small>
+        </div>
+        <div class="stat-card">
+            <h3>平均收益率比 <span class="tooltip">ⓘ</span></h3>
+            <p id="avg-return-ratio">0 R</p>
+        </div>
+        <div class="stat-card">
+            <h3>總收益 <span class="tooltip">ⓘ</span></h3>
+            <p id="total-profit">0 R</p>
+        </div>
+        <div class="stat-card">
+            <h3>總損失 <span class="tooltip">ⓘ</span></h3>
+            <p id="total-loss">0 R</p>
+        </div>
+        <div class="stat-card">
+            <h3>總存續 <span class="tooltip">ⓘ</span></h3>
